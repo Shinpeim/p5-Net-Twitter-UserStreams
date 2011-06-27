@@ -1,0 +1,17 @@
+NAME
+    Net::Twitter::UserStreams -
+
+SYNOPSIS
+      use Net::Twitter::UserStreams;
+
+DESCRIPTION
+    Net::Twitter::UserStreams is
+
+AUTHOR
+    Shinpei Maruyama <shinpeim@gmail.com>
+
+SEE ALSO
+LICENSE
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
