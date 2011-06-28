@@ -6,7 +6,8 @@ readme_markdown_from 'lib/Net/Twitter/UserStreams.pm';
 readme_pod_from 'lib/Net/Twitter/UserStreams.pm';
 githubmeta;
 
-# requires '';
+requires 'AnyEvent::Twitter::Stream';
+requires 'Smart::Args';
 
 tests 't/*.t';
 author_tests 'xt';

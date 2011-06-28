@@ -1,20 +1,88 @@
 # NAME
 
-Net::Twitter::UserStreams -
+Net::Twitter::UserStreams - Receive Twitter UserStreams API
 
 # SYNOPSIS
 
+  use strict;
+  use warnings;
+
+  use FindBin;
+  use lib "$FindBin::RealBin/../lib";
+
+  use Config::Pit;
   use Net::Twitter::UserStreams;
+  use YAML;
+
+  my $args = Config::Pit::get("Net-Twitter-UserStreams", require => {
+      'token' => "your access token on twitter",
+      'token_secret' => "your access token secret on twitter",
+      'consumer_key' => "your consumer key on twitter",
+      'consumer_secret' => "your consumer secret on twitter",
+  });
+
+  #setup
+  my $listener = Net::Twitter::UserStreams->new(
+      token           => $args->{token},
+      token_secret    => $args->{token_secret},
+      consumer_key    => $args->{consumer_key},
+      consumer_secret => $args->{consumer_secret},
+      wait => 10,        #wait time for reconnect (optional)
+
+      # handlers are optional. when ommited,it does nothing.
+      handlers => {
+          on_friends_list => sub{
+              my $list = shift;
+              warn Dump $list;
+          },
+          on_tweet => sub{
+              my $tweet = shift;
+              warn Dump $tweet;
+          },
+          on_delete => sub{
+              my $deleted_tweet = shift;
+              warn Dump $deleted_tweet;
+          },
+      },
+  );
+
+  #you can set handlers after create object
+  $listener->on_favorite(sub{
+      my $faved_tweet = shift;
+      warn Dump $faved_tweet;
+  });
+
+  $listener->on_unfavorite(sub{
+      my $unfaved_tweet = shift;
+      warn Dump $unfaved_tweet;
+  });
+
+  $listener->on_follow(sub{
+      my $unfaved_tweet = shift;
+      warn Dump $unfaved_tweet;
+  });
+
+  $listener->on_direct_message(sub{
+      my $dm = shift;
+      warn Dump $dm;
+  });
+
+  # then you can run the listener
+  $listener->run;
+
+
 
 # DESCRIPTION
 
-Net::Twitter::UserStreams is
+Net::Twitter::UserStreams is a simple wrapper of [AnyEvent::Twitter::Stream](http://search.cpan.org/perldoc?AnyEvent::Twitter::Stream)
 
 # AUTHOR
 
 Shinpei Maruyama <shinpeim@gmail.com>
 
 # SEE ALSO
+
+[AnyEvane::Twitter::Stream](http://search.cpan.org/perldoc?AnyEvane::Twitter::Stream)
 
 # LICENSE
 
