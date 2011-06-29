@@ -92,6 +92,8 @@ sub run {
                 }
             },
             on_error        => sub {
+                my $err = shift;
+                warn  $err;
                 $self->{cv}->send;
             },
         );

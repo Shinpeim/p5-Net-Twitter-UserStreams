@@ -13,6 +13,8 @@ test_requires 'JSON';
 
 requires 'AnyEvent::Twitter::Stream';
 requires 'Smart::Args';
+requires 'Net::OAuth';
+requires 'Net::SSLeay';
 
 tests 't/*.t';
 author_tests 'xt';
