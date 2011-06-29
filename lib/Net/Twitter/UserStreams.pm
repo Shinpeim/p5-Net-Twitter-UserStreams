@@ -1,7 +1,7 @@
 package Net::Twitter::UserStreams;
 use strict;
 use warnings;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use AnyEvent::Twitter::Stream;
 use Smart::Args;
@@ -26,12 +26,15 @@ sub new {
         consumer_secret => $consumer_secret,
         wait => $wait,
         handlers => $handlers,
+        running => 0,
+        cv => AnyEvent->condvar,
     }, $class;
 
     for my $meth (qw/on_tweet on_favorite on_unfavorite on_delete on_follow on_direct_message on_friends_list/){
         $self->{handlers}->{$meth} ||= sub{};
 
         no strict 'refs';
+        no warnings 'redefine';
         * {__PACKAGE__ . '::' . $meth} = sub{
             args_pos my $self,
                      my $code => {isa => 'CodeRef'};
@@ -42,11 +45,21 @@ sub new {
     $self;
 }
 
+sub stop{
+    my $self = shift;
+
+    #stop infinity loop
+    $self->{running} = 0;
+
+    #stop event_loop
+    $self->{cv}->send;
+}
 
 sub run {
     my $self = shift;
-    while (1) {
-        my $cv = AnyEvent->condvar;
+    $self->{running} = 1;
+
+    while ($self->{running}) {
         my $listener = AnyEvent::Twitter::Stream->new(
             consumer_key    => $self->{consumer_key},
             consumer_secret => $self->{consumer_secret},
@@ -79,10 +92,10 @@ sub run {
                 }
             },
             on_error        => sub {
-                $cv->send;
+                $self->{cv}->send;
             },
         );
-        $cv->recv;
+        $self->{cv}->recv;
         sleep($self->{wait});
     }
 }

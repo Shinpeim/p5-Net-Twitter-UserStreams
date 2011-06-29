@@ -1,0 +1,591 @@
+---
+friends:
+  - 4005291
+  - 20104013
+  - 779900
+  - 6805412
+  - 54514229
+  - 5680932
+  - 81367551
+  - 77475279
+  - 6078772
+  - 5199561
+  - 3692571
+  - 3696681
+  - 184027787
+  - 15081480
+  - 59318222
+  - 45324308
+  - 64742186
+  - 57140908
+  - 3628321
+  - 36335235
+  - 4015691
+  - 6256012
+  - 88905078
+  - 3701901
+  - 4166171
+  - 198850413
+  - 105366248
+  - 150657117
+  - 120200591
+  - 163394811
+  - 3219851
+  - 1493091
+  - 17162411
+  - 116739314
+  - 88095217
+  - 3859671
+  - 115922421
+  - 168499873
+  - 112924424
+  - 84070864
+  - 67901595
+  - 20439858
+  - 817543
+  - 71305544
+  - 49672948
+  - 731253
+  - 242296355
+  - 115839757
+  - 59502389
+  - 85713817
+  - 150526767
+  - 3278331
+  - 4285561
+  - 3598301
+  - 259713755
+  - 101631654
+  - 3752201
+  - 160894685
+  - 99855837
+  - 3523861
+  - 235027104
+  - 5620292
+  - 1434831
+  - 14565807
+  - 9391722
+  - 109726643
+  - 3180341
+  - 9675782
+  - 140820455
+  - 5596942
+  - 224712954
+  - 108516089
+  - 68675578
+  - 3435341
+  - 4861561
+  - 106431139
+  - 89417755
+  - 26220041
+  - 8986162
+---
+delete:
+  status:
+    id: 84957891441864705
+    id_str: 84957891441864705
+    user_id: 232872388
+    user_id_str: 232872388
+---
+contributors: ~
+coordinates: ~
+created_at: Wed Jun 29 01:18:27 +0000 2011
+entities:
+  hashtags: []
+  urls: []
+  user_mentions: []
+favorited: &1 !!perl/scalar:JSON::XS::Boolean 0
+geo: ~
+id: 85879770864287744
+id_str: 85879770864287744
+in_reply_to_screen_name: ~
+in_reply_to_status_id: ~
+in_reply_to_status_id_str: ~
+in_reply_to_user_id: ~
+in_reply_to_user_id_str: ~
+place: ~
+retweet_count: 0
+retweeted: *1
+source: '<a href="http://itunes.apple.com/us/app/twitter/id409789998?mt=12" rel="nofollow">Twitter for Mac</a>'
+text: 暑すぎるし「暑い」しか考えられないからもうだめだ
+truncated: *1
+user:
+  contributors_enabled: *1
+  created_at: Sat Jan 01 15:52:09 +0000 2011
+  default_profile: &2 !!perl/scalar:JSON::XS::Boolean 1
+  default_profile_image: *1
+  description: 'perl,linux,mysql。TRIO the CMYK (http://cmyk.paycle.net/) のベーシスト。曲も書くし歌も歌う。小沢健二にハートを撃ち抜かれ、エヴァで他者を知った。現実が苦手で、漫画がなければ生きていける自信がない。リズムが好き。リズム隊が好き。'
+  favourites_count: 262
+  follow_request_sent: ~
+  followers_count: 55
+  following: ~
+  friends_count: 79
+  geo_enabled: *1
+  id: 232872388
+  id_str: 232872388
+  is_translator: *1
+  lang: ja
+  listed_count: 7
+  location: ''
+  name: shinpei maruyama
+  notifications: ~
+  profile_background_color: C0DEED
+  profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+  profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+  profile_background_tile: *1
+  profile_image_url: http://a0.twimg.com/profile_images/1204042207/shinpei_normal.jpeg
+  profile_image_url_https: https://si0.twimg.com/profile_images/1204042207/shinpei_normal.jpeg
+  profile_link_color: 0084B4
+  profile_sidebar_border_color: C0DEED
+  profile_sidebar_fill_color: DDEEF6
+  profile_text_color: 333333
+  profile_use_background_image: *2
+  protected: *1
+  screen_name: shinpei_cmyk
+  show_all_inline_media: *1
+  statuses_count: 912
+  time_zone: Hawaii
+  url: http://d.hatena.ne.jp/nkgt_chkonk/
+  utc_offset: -36000
+  verified: *1
+---
+created_at: Wed Jun 29 01:19:09 +0000 2011
+event: favorite
+source:
+  contributors_enabled: &1 !!perl/scalar:JSON::XS::Boolean 0
+  created_at: Thu Dec 09 17:46:22 +0000 2010
+  default_profile: &2 !!perl/scalar:JSON::XS::Boolean 1
+  default_profile_image: *1
+  description: sudo rm -rf /
+  follow_request_sent: *1
+  followers_count: 47
+  following: *1
+  friends_count: 63
+  geo_enabled: *1
+  id: 224712954
+  id_str: 224712954
+  is_translator: *1
+  lang: ja
+  listed_count: 6
+  location: ''
+  name: 猫型蓄音機（しんぺい）
+  notifications: *1
+  profile_background_color: C0DEED
+  profile_background_image_url: http://a3.twimg.com/images/themes/theme1/bg.png
+  profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+  profile_background_tile: *1
+  profile_image_url: http://a2.twimg.com/profile_images/1319394014/image_normal.jpg
+  profile_image_url_https: https://si0.twimg.com/profile_images/1319394014/image_normal.jpg
+  profile_link_color: 0084B4
+  profile_sidebar_border_color: C0DEED
+  profile_sidebar_fill_color: DDEEF6
+  profile_text_color: 333333
+  profile_use_background_image: *2
+  protected: *2
+  screen_name: nkgt_chkonk
+  show_all_inline_media: *1
+  time_zone: Hawaii
+  url: ~
+  utc_offset: -36000
+  verified: *1
+target:
+  contributors_enabled: *1
+  created_at: Sat Jan 01 15:52:09 +0000 2011
+  default_profile: *2
+  default_profile_image: *1
+  description: 'perl,linux,mysql。TRIO the CMYK (http://cmyk.paycle.net/) のベーシスト。曲も書くし歌も歌う。小沢健二にハートを撃ち抜かれ、エヴァで他者を知った。現実が苦手で、漫画がなければ生きていける自信がない。リズムが好き。リズム隊が好き。'
+  favourites_count: 262
+  follow_request_sent: *1
+  followers_count: 55
+  following: *2
+  friends_count: 79
+  geo_enabled: *1
+  id: 232872388
+  id_str: 232872388
+  is_translator: *1
+  lang: ja
+  listed_count: 7
+  location: ''
+  name: shinpei maruyama
+  notifications: *1
+  profile_background_color: C0DEED
+  profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+  profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+  profile_background_tile: *1
+  profile_image_url: http://a0.twimg.com/profile_images/1204042207/shinpei_normal.jpeg
+  profile_image_url_https: https://si0.twimg.com/profile_images/1204042207/shinpei_normal.jpeg
+  profile_link_color: 0084B4
+  profile_sidebar_border_color: C0DEED
+  profile_sidebar_fill_color: DDEEF6
+  profile_text_color: 333333
+  profile_use_background_image: *2
+  protected: *1
+  screen_name: shinpei_cmyk
+  show_all_inline_media: *1
+  statuses_count: 912
+  time_zone: Hawaii
+  url: http://d.hatena.ne.jp/nkgt_chkonk/
+  utc_offset: -36000
+  verified: *1
+target_object:
+  contributors: ~
+  coordinates: ~
+  created_at: Wed Jun 29 01:18:27 +0000 2011
+  favorited: *2
+  geo: ~
+  id: 85879770864287744
+  id_str: 85879770864287744
+  in_reply_to_screen_name: ~
+  in_reply_to_status_id: ~
+  in_reply_to_status_id_str: ~
+  in_reply_to_user_id: ~
+  in_reply_to_user_id_str: ~
+  place: ~
+  retweet_count: 0
+  retweeted: *1
+  source: '<a href="http://itunes.apple.com/us/app/twitter/id409789998?mt=12" rel="nofollow">Twitter for Mac</a>'
+  text: 暑すぎるし「暑い」しか考えられないからもうだめだ
+  truncated: *1
+  user:
+    contributors_enabled: *1
+    created_at: Sat Jan 01 15:52:09 +0000 2011
+    default_profile: *2
+    default_profile_image: *1
+    description: 'perl,linux,mysql。TRIO the CMYK (http://cmyk.paycle.net/) のベーシスト。曲も書くし歌も歌う。小沢健二にハートを撃ち抜かれ、エヴァで他者を知った。現実が苦手で、漫画がなければ生きていける自信がない。リズムが好き。リズム隊が好き。'
+    favourites_count: 262
+    follow_request_sent: *1
+    followers_count: 55
+    following: *2
+    friends_count: 79
+    geo_enabled: *1
+    id: 232872388
+    id_str: 232872388
+    is_translator: *1
+    lang: ja
+    listed_count: 7
+    location: ''
+    name: shinpei maruyama
+    notifications: *1
+    profile_background_color: C0DEED
+    profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+    profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+    profile_background_tile: *1
+    profile_image_url: http://a0.twimg.com/profile_images/1204042207/shinpei_normal.jpeg
+    profile_image_url_https: https://si0.twimg.com/profile_images/1204042207/shinpei_normal.jpeg
+    profile_link_color: 0084B4
+    profile_sidebar_border_color: C0DEED
+    profile_sidebar_fill_color: DDEEF6
+    profile_text_color: 333333
+    profile_use_background_image: *2
+    protected: *1
+    screen_name: shinpei_cmyk
+    show_all_inline_media: *1
+    statuses_count: 912
+    time_zone: Hawaii
+    url: http://d.hatena.ne.jp/nkgt_chkonk/
+    utc_offset: -36000
+    verified: *1
+---
+created_at: Wed Jun 29 01:19:11 +0000 2011
+event: unfavorite
+source:
+  contributors_enabled: &1 !!perl/scalar:JSON::XS::Boolean 0
+  created_at: Thu Dec 09 17:46:22 +0000 2010
+  default_profile: &2 !!perl/scalar:JSON::XS::Boolean 1
+  default_profile_image: *1
+  description: sudo rm -rf /
+  follow_request_sent: *1
+  followers_count: 47
+  following: *1
+  friends_count: 63
+  geo_enabled: *1
+  id: 224712954
+  id_str: 224712954
+  is_translator: *1
+  lang: ja
+  listed_count: 6
+  location: ''
+  name: 猫型蓄音機（しんぺい）
+  notifications: *1
+  profile_background_color: C0DEED
+  profile_background_image_url: http://a3.twimg.com/images/themes/theme1/bg.png
+  profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+  profile_background_tile: *1
+  profile_image_url: http://a2.twimg.com/profile_images/1319394014/image_normal.jpg
+  profile_image_url_https: https://si0.twimg.com/profile_images/1319394014/image_normal.jpg
+  profile_link_color: 0084B4
+  profile_sidebar_border_color: C0DEED
+  profile_sidebar_fill_color: DDEEF6
+  profile_text_color: 333333
+  profile_use_background_image: *2
+  protected: *2
+  screen_name: nkgt_chkonk
+  show_all_inline_media: *1
+  time_zone: Hawaii
+  url: ~
+  utc_offset: -36000
+  verified: *1
+target:
+  contributors_enabled: *1
+  created_at: Sat Jan 01 15:52:09 +0000 2011
+  default_profile: *2
+  default_profile_image: *1
+  description: 'perl,linux,mysql。TRIO the CMYK (http://cmyk.paycle.net/) のベーシスト。曲も書くし歌も歌う。小沢健二にハートを撃ち抜かれ、エヴァで他者を知った。現実が苦手で、漫画がなければ生きていける自信がない。リズムが好き。リズム隊が好き。'
+  favourites_count: 262
+  follow_request_sent: *1
+  followers_count: 55
+  following: *2
+  friends_count: 79
+  geo_enabled: *1
+  id: 232872388
+  id_str: 232872388
+  is_translator: *1
+  lang: ja
+  listed_count: 7
+  location: ''
+  name: shinpei maruyama
+  notifications: *1
+  profile_background_color: C0DEED
+  profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+  profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+  profile_background_tile: *1
+  profile_image_url: http://a0.twimg.com/profile_images/1204042207/shinpei_normal.jpeg
+  profile_image_url_https: https://si0.twimg.com/profile_images/1204042207/shinpei_normal.jpeg
+  profile_link_color: 0084B4
+  profile_sidebar_border_color: C0DEED
+  profile_sidebar_fill_color: DDEEF6
+  profile_text_color: 333333
+  profile_use_background_image: *2
+  protected: *1
+  screen_name: shinpei_cmyk
+  show_all_inline_media: *1
+  statuses_count: 912
+  time_zone: Hawaii
+  url: http://d.hatena.ne.jp/nkgt_chkonk/
+  utc_offset: -36000
+  verified: *1
+target_object:
+  contributors: ~
+  coordinates: ~
+  created_at: Wed Jun 29 01:18:27 +0000 2011
+  favorited: *1
+  geo: ~
+  id: 85879770864287744
+  id_str: 85879770864287744
+  in_reply_to_screen_name: ~
+  in_reply_to_status_id: ~
+  in_reply_to_status_id_str: ~
+  in_reply_to_user_id: ~
+  in_reply_to_user_id_str: ~
+  place: ~
+  retweet_count: 0
+  retweeted: *1
+  source: '<a href="http://itunes.apple.com/us/app/twitter/id409789998?mt=12" rel="nofollow">Twitter for Mac</a>'
+  text: 暑すぎるし「暑い」しか考えられないからもうだめだ
+  truncated: *1
+  user:
+    contributors_enabled: *1
+    created_at: Sat Jan 01 15:52:09 +0000 2011
+    default_profile: *2
+    default_profile_image: *1
+    description: 'perl,linux,mysql。TRIO the CMYK (http://cmyk.paycle.net/) のベーシスト。曲も書くし歌も歌う。小沢健二にハートを撃ち抜かれ、エヴァで他者を知った。現実が苦手で、漫画がなければ生きていける自信がない。リズムが好き。リズム隊が好き。'
+    favourites_count: 262
+    follow_request_sent: *1
+    followers_count: 55
+    following: *2
+    friends_count: 79
+    geo_enabled: *1
+    id: 232872388
+    id_str: 232872388
+    is_translator: *1
+    lang: ja
+    listed_count: 7
+    location: ''
+    name: shinpei maruyama
+    notifications: *1
+    profile_background_color: C0DEED
+    profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+    profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+    profile_background_tile: *1
+    profile_image_url: http://a0.twimg.com/profile_images/1204042207/shinpei_normal.jpeg
+    profile_image_url_https: https://si0.twimg.com/profile_images/1204042207/shinpei_normal.jpeg
+    profile_link_color: 0084B4
+    profile_sidebar_border_color: C0DEED
+    profile_sidebar_fill_color: DDEEF6
+    profile_text_color: 333333
+    profile_use_background_image: *2
+    protected: *1
+    screen_name: shinpei_cmyk
+    show_all_inline_media: *1
+    statuses_count: 912
+    time_zone: Hawaii
+    url: http://d.hatena.ne.jp/nkgt_chkonk/
+    utc_offset: -36000
+    verified: *1
+---
+created_at: Wed Jun 29 01:19:31 +0000 2011
+event: follow
+source:
+  contributors_enabled: &1 !!perl/scalar:JSON::XS::Boolean 0
+  created_at: Thu Dec 09 17:46:22 +0000 2010
+  default_profile: &2 !!perl/scalar:JSON::XS::Boolean 1
+  default_profile_image: *1
+  description: sudo rm -rf /
+  follow_request_sent: *1
+  followers_count: 47
+  following: *1
+  friends_count: 62
+  geo_enabled: *1
+  id: 224712954
+  id_str: 224712954
+  is_translator: *1
+  lang: ja
+  listed_count: 6
+  location: ''
+  name: 猫型蓄音機（しんぺい）
+  notifications: *1
+  profile_background_color: C0DEED
+  profile_background_image_url: http://a3.twimg.com/images/themes/theme1/bg.png
+  profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+  profile_background_tile: *1
+  profile_image_url: http://a2.twimg.com/profile_images/1319394014/image_normal.jpg
+  profile_image_url_https: https://si0.twimg.com/profile_images/1319394014/image_normal.jpg
+  profile_link_color: 0084B4
+  profile_sidebar_border_color: C0DEED
+  profile_sidebar_fill_color: DDEEF6
+  profile_text_color: 333333
+  profile_use_background_image: *2
+  protected: *2
+  screen_name: nkgt_chkonk
+  show_all_inline_media: *1
+  time_zone: Hawaii
+  url: ~
+  utc_offset: -36000
+  verified: *1
+target:
+  contributors_enabled: *1
+  created_at: Sat Jan 01 15:52:09 +0000 2011
+  default_profile: *2
+  default_profile_image: *1
+  description: 'perl,linux,mysql。TRIO the CMYK (http://cmyk.paycle.net/) のベーシスト。曲も書くし歌も歌う。小沢健二にハートを撃ち抜かれ、エヴァで他者を知った。現実が苦手で、漫画がなければ生きていける自信がない。リズムが好き。リズム隊が好き。'
+  favourites_count: 262
+  follow_request_sent: *1
+  followers_count: 54
+  following: *1
+  friends_count: 79
+  geo_enabled: *1
+  id: 232872388
+  id_str: 232872388
+  is_translator: *1
+  lang: ja
+  listed_count: 7
+  location: ''
+  name: shinpei maruyama
+  notifications: *1
+  profile_background_color: C0DEED
+  profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+  profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+  profile_background_tile: *1
+  profile_image_url: http://a0.twimg.com/profile_images/1204042207/shinpei_normal.jpeg
+  profile_image_url_https: https://si0.twimg.com/profile_images/1204042207/shinpei_normal.jpeg
+  profile_link_color: 0084B4
+  profile_sidebar_border_color: C0DEED
+  profile_sidebar_fill_color: DDEEF6
+  profile_text_color: 333333
+  profile_use_background_image: *2
+  protected: *1
+  screen_name: shinpei_cmyk
+  show_all_inline_media: *1
+  statuses_count: 912
+  time_zone: Hawaii
+  url: http://d.hatena.ne.jp/nkgt_chkonk/
+  utc_offset: -36000
+  verified: *1
+---
+direct_message:
+  created_at: Wed Jun 29 01:19:42 +0000 2011
+  id: 3380466864
+  id_str: 3380466864
+  recipient:
+    contributors_enabled: &1 !!perl/scalar:JSON::XS::Boolean 0
+    created_at: Sat Jan 01 15:52:09 +0000 2011
+    default_profile: &2 !!perl/scalar:JSON::XS::Boolean 1
+    default_profile_image: *1
+    description: 'perl,linux,mysql。TRIO the CMYK (http://cmyk.paycle.net/) のベーシスト。曲も書くし歌も歌う。小沢健二にハートを撃ち抜かれ、エヴァで他者を知った。現実が苦手で、漫画がなければ生きていける自信がない。リズムが好き。リズム隊が好き。'
+    favourites_count: 262
+    follow_request_sent: *1
+    followers_count: 54
+    following: *1
+    friends_count: 79
+    geo_enabled: *1
+    id: 232872388
+    id_str: 232872388
+    is_translator: *1
+    lang: ja
+    listed_count: 7
+    location: ''
+    name: shinpei maruyama
+    notifications: *1
+    profile_background_color: C0DEED
+    profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+    profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+    profile_background_tile: *1
+    profile_image_url: http://a0.twimg.com/profile_images/1204042207/shinpei_normal.jpeg
+    profile_image_url_https: https://si0.twimg.com/profile_images/1204042207/shinpei_normal.jpeg
+    profile_link_color: 0084B4
+    profile_sidebar_border_color: C0DEED
+    profile_sidebar_fill_color: DDEEF6
+    profile_text_color: 333333
+    profile_use_background_image: *2
+    protected: *1
+    screen_name: shinpei_cmyk
+    show_all_inline_media: *1
+    statuses_count: 912
+    time_zone: Hawaii
+    url: http://d.hatena.ne.jp/nkgt_chkonk/
+    utc_offset: -36000
+    verified: *1
+  recipient_id: 232872388
+  recipient_screen_name: shinpei_cmyk
+  sender:
+    contributors_enabled: *1
+    created_at: Thu Dec 09 17:46:22 +0000 2010
+    default_profile: *2
+    default_profile_image: *1
+    description: sudo rm -rf /
+    favourites_count: 1685
+    follow_request_sent: *1
+    followers_count: 47
+    following: *1
+    friends_count: 63
+    geo_enabled: *1
+    id: 224712954
+    id_str: 224712954
+    is_translator: *1
+    lang: ja
+    listed_count: 6
+    location: ''
+    name: 猫型蓄音機（しんぺい）
+    notifications: *1
+    profile_background_color: C0DEED
+    profile_background_image_url: http://a3.twimg.com/images/themes/theme1/bg.png
+    profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+    profile_background_tile: *1
+    profile_image_url: http://a2.twimg.com/profile_images/1319394014/image_normal.jpg
+    profile_image_url_https: https://si0.twimg.com/profile_images/1319394014/image_normal.jpg
+    profile_link_color: 0084B4
+    profile_sidebar_border_color: C0DEED
+    profile_sidebar_fill_color: DDEEF6
+    profile_text_color: 333333
+    profile_use_background_image: *2
+    protected: *2
+    screen_name: nkgt_chkonk
+    show_all_inline_media: *1
+    statuses_count: 5352
+    time_zone: Hawaii
+    url: ~
+    utc_offset: -36000
+    verified: *1
+  sender_id: 224712954
+  sender_screen_name: nkgt_chkonk
+  text: hoge

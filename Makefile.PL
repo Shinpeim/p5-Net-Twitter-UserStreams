@@ -6,6 +6,11 @@ readme_markdown_from 'lib/Net/Twitter/UserStreams.pm';
 readme_pod_from 'lib/Net/Twitter/UserStreams.pm';
 githubmeta;
 
+test_requires 'Test::TCP';
+test_requires 'Test::Requires';
+test_requires 'YAML';
+test_requires 'JSON';
+
 requires 'AnyEvent::Twitter::Stream';
 requires 'Smart::Args';
 
