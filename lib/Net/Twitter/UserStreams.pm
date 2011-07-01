@@ -17,6 +17,7 @@ sub new {
          my $consumer_key    => {isa => 'Str'},
          my $consumer_secret => {isa => 'Str'},
          my $wait            => {isa => 'Int', default => 30},
+         my $reconnect       => {isa => 'Int', default => 60 * 20},
          my $handlers        => {isa => 'HashRef[CodeRef]', default => {}};
 
     my $self = bless {
@@ -28,9 +29,11 @@ sub new {
         handlers => $handlers,
         running => 0,
         cv => AnyEvent->condvar,
+        reconnect => $reconnect,
+        timer => undef,
     }, $class;
 
-    for my $meth (qw/on_tweet on_favorite on_unfavorite on_delete on_follow on_direct_message on_friends_list/){
+    for my $meth (qw/on_tweet on_favorite on_unfavorite on_delete on_follow on_direct_message on_friends_list on_error/){
         $self->{handlers}->{$meth} ||= sub{};
 
         no strict 'refs';
@@ -47,6 +50,8 @@ sub new {
 
 sub stop{
     my $self = shift;
+
+    undef $self->{timer};
 
     #stop infinity loop
     $self->{running} = 0;
@@ -92,14 +97,32 @@ sub run {
                 }
             },
             on_error        => sub {
-                my $err = shift;
-                warn  $err;
-                $self->{cv}->send;
+        	$self->{handlers}->{on_error}->(@_);
             },
         );
+
+        #for reconnect
+        $self->{timer} = AnyEvent->timer(
+            after    => $self->{wait} + $self->{reconnect},
+            cb       => sub {
+        	$self->{cv}->send;
+        	undef $self->{timer};
+            },
+        );
+
+        $self->{cv} = AnyEvent->condvar;
         $self->{cv}->recv;
+
         sleep($self->{wait});
     }
+}
+
+sub fire{
+    my $self = shift;
+    my $event = shift;
+
+    die "no such event" unless $self->{handlers}->{'on_'.$event};
+    $self->{handlers}->{'on_'.$event}->(@_);
 }
 
 1;
